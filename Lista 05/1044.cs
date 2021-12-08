@@ -8,10 +8,15 @@ class URI {
 
       int A = int.Parse(Valores[0]);
       int B = int.Parse(Valores[1]);
+      int C;
+      if(B > A)
+      {
+        C = A;
+        A = B;
+        B = C;
+      }
 
-      Console.WriteLine(A%B);
-
-      if(A%B == 0 || A%B == A){
+      if(A%B == 0){
         Console.WriteLine("Sao Multiplos");
       }
       else{

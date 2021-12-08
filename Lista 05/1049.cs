@@ -20,7 +20,7 @@ class URI {
         }
         else{
             if(C == "onivoro"){
-              Console.WriteLine("homen");
+              Console.WriteLine("homem");
             }
             else{
               Console.WriteLine("vaca");
@@ -28,7 +28,7 @@ class URI {
         }
       }
       else{
-        if(B == "insetp"){
+        if(B == "inseto"){
             if(C == "hematofago"){
               Console.WriteLine("pulga");
             }
