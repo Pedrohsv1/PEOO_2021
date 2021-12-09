@@ -21,7 +21,7 @@ class URI {
           Console.WriteLine("Rio de Janeiro");
           break;
         case 32:
-          Console.WriteLine("Juiz de FOra");
+          Console.WriteLine("Juiz de Fora");
           break;
         case 19:
           Console.WriteLine("Campinas");
@@ -33,6 +33,7 @@ class URI {
           Console.WriteLine("Belo Horizonte");
           break;
         default:
+        Console.WriteLine("DDD nao registrado")
           break;
       }
         
